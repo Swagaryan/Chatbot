@@ -23,8 +23,8 @@ async def send_dialogue(client, message):
     await message.reply(dialogue)
 
 # Command to chat
-@app.on_message(filters.text & ~filters.command())
-async def chat(client, message):
+@app.on_message(filters.text & ~filters.command("chat")
+async def chat(client, message)
     user_message = message.text.lower()
 
     # Predefined responses for certain keywords
