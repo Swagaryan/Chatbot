@@ -24,7 +24,7 @@ async def send_dialogue(client, message):
 
 # Command to chat
 @app.on_message(filters.text & ~filters.command("chat"))
-async def chat(client, message)
+async def chat(client, message):
     user_message = message.text.lower()
 
     # Predefined responses for certain keywords
