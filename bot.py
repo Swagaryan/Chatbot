@@ -4,9 +4,9 @@ import asyncio
 from shayari_data import get_shayari, get_dialogue
 
 # Bot Token
-api_id = 'YOUR_API_ID'  # Replace with your API ID
-api_hash = 'YOUR_API_HASH'  # Replace with your API Hash
-bot_token = 'YOUR_BOT_TOKEN'  # Replace with your Bot Token
+api_id = '24580511'  # Replace with your API ID
+api_hash = '8ff61858d42bc16a89bc2b76144bfa8f'  # Replace with your API Hash
+bot_token = '8094504895:AAHSm24EZ82JS2JEWI-JHBI7IYX5nwMAIoo'  # Replace with your Bot Token
 
 app = Client("chatting_bot", api_id=api_id, api_hash=api_hash, bot_token=bot_token)
 
